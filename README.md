@@ -1,1 +1,1 @@
-# Logos_courses_2020
+# In this repository my homeworks from course "front-end" in "IT Academy Logos"

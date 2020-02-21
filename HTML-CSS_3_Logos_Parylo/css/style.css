@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-text {
+    display: flex;
+    margin: 2rem 0 1rem;
+}
+
+header p {
+    text-transform: uppercase;
+}
+
+header span {
+    font-weight: 800;
+    font-size: 2em;
+}
+
+span~span {
+    font-weight: 200;
+    font-size: 2em;
+}
+
+.social-icons {
+    padding-top: 18px;
+    margin-inline-start: auto;
+    margin-block-start: auto;
+}
+
+.social {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    padding: 1.2em;
+    background-color: rgba(77, 77, 77, 0.527);
+    border-radius: 0.6em 0.6em 0 0;
+    -webkit-border-radius: 0.6em 0.6em 0 0;
+    -moz-border-radius: 0.6em 0.6em 0 0;
+    -ms-border-radius: 0.6em 0.6em 0 0;
+    -o-border-radius: 0.6em 0.6em 0 0;
+    margin-bottom: 142px;
+    margin-top: 17px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.2em 1em;
+
+}
+
+.main-page,
+nav a:hover {
+    background-image: url(../images/menu_hover.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav ul {
+
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+
+li {
+    position: relative;
+}
+
+main {
+    background-color: rgba(77, 77, 77, 0.507);
+    padding: 50px 50px;
+    margin-top: -125px;
+}
+
+h2 {
+    color: rgb(40, 195, 247);
+}
+
+.main-wrap,
+.end-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-title {
+    margin-bottom: 0.6em;
+}
+
+.main .main-number {
+    float: left;
+    padding: 1em 1em 0.6em 0;
+}
+
+.main-text {
+    color: rgb(180, 178, 178);
+}
+
+.main-context {
+    margin: 2.1em 3.2em 3em 0;
+}
+
+hr {
+    color: #413F44;
+}
+
+.main-title-blcok2 {
+    width: 50%;
+}
+
+.main-big-image {
+    width: 210px;
+    height: 210px;
+
+}
+
+.main-big-image,
+.main-middle-image {
+    outline: 3px solid rgb(0, 0, 0);
+    outline-offset: 6px;
+    margin: 1.1em 1.1em 0.5em 0;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+
+.text-color {
+    color: white;
+}
+
+.text-style {
+    font-style: italic;
+}
+
+.title-box-about-margin {
+    margin-bottom: 1em;
+}
+
+.box-allign {
+    text-align: right;
+}
+
+.allign {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    background: url(../images/button.png);
+    background-size: 100% 100%;
+    border: none;
+}
+
+.allign:hover {
+    background: url(../images/button-hover.png);
+    background-size: 100% 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+
+.page,
+.page-3,
+.main-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-style,
+.page3-style, 
+.box-about {
+    width: 46%;
+} 
+
+hr,
+.page hr,
+.page-3 hr {
+    margin: 2.1em 0;
+}
+
+.main-middle-image {
+    width: 120px;
+    height: 120px;
+}
+
+.partners-list {
+    list-style: url(../images/check.png);
+}
+
+.partners-list li {
+    margin-bottom: 1.6em;
+}
+
+
+
+.page-3 .partners-list {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-partners {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our-partners-names {
+    padding: 0.6em 0;
+    box-sizing: content-box;
+    width: 50%;
+    background-size: cover;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+.our-partners-names:nth-child(1) {
+    background: url(../images/koflash.png) no-repeat;
+
+}
+
+.our-partners-names:nth-child(3) {
+    background: url(../images/flashmo.png) no-repeat;
+}
+
+.our-partners-names:nth-child(2) {
+    background: url(../images/templatemo.png) no-repeat;
+}
+
+.our-partners-names:nth-child(4) {
+    background: url(../images/webdesignmo.png) no-repeat;
+}
+
+
+.our-partners-names:hover:nth-child(1) {
+    background: url(../images/koflash_red.png) no-repeat;
+
+}
+
+.our-partners-names:hover:nth-child(3) {
+    background: url(../images/flashmo_red.png) no-repeat;
+}
+
+.our-partners-names:hover:nth-child(2) {
+    background: url(../images/templatemo_red.png) no-repeat;
+
+}
+
+.our-partners-names:hover:nth-child(4) {
+    background: url(../images/webdesignmo_red.png) no-repeat;
+
+
+}

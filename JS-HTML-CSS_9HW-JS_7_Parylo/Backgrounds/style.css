@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+    min-height: 759px;
+    max-height: 759px;
+    background-color: lightgreen;
+}
+
+.box_color {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.colors {
+    width: 66px;
+    height: 66px;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+.btn1{
+    width: 120px;
+    height: 25px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 0 5px 5px red;
+}
+.btn2{
+    margin-left: 12px;
+    height: 25px;
+    width: 120px;   
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 0 5px 5px red;
+}
+
+.color_buttons input:hover{
+    font-size: 15px;
+    box-shadow: 0 0 5px 5px turquoise;
+    transform: translateY(4px);
+    cursor: pointer;
+}
+
+.color_buttons{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}

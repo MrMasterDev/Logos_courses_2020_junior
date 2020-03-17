@@ -1,0 +1,82 @@
+.container{
+    margin-top: 20px;
+}
+.backbodyColor{
+    position: absolute;
+    left: 20px;
+    top: 420px;
+}
+.fontfamily{
+    position: absolute;
+    left: 180px;
+    top: 420px;
+}
+.bgcolorp{
+    position: absolute;
+    left: 380px;
+    top: 420px;
+}
+.h_position{
+    display: flex;
+    position: absolute;
+    top: 660px;
+    left: 700px;
+}
+.colorP{
+    position: absolute;
+    left: 750px;
+    top: 420px;
+}
+.colorLink{
+    position: absolute;
+    left: 640px;
+    top: 420px;
+}
+.colorDiv{
+    position: absolute;
+    left: 530px;
+    top: 420px;
+}
+
+.font_size{
+    display: flex;
+    position: absolute;
+    top: 660px;
+}
+.fontWeight{
+    position: absolute;
+    top: 420px;
+    left: 900px;
+}
+.select_style_of_li{ 
+    position: absolute;
+    top: 420px;
+    left: 1050px;
+}
+.font_size h5{
+padding-right: 20px;
+}
+.input7{
+padding-right: 10px;
+}
+.input8{
+padding-right: 10px;
+}
+.input9{
+ padding-right: 10px;
+    }
+.input10{
+  padding-right: 10px;
+        }
+.h_position h5{
+    padding-right: 20px;
+}
+.h_pos1{
+    padding-right: 10px;
+}
+.h_pos2{
+    padding-right: 10px;
+}
+.h_pos3{
+    padding-right: 10px;
+}

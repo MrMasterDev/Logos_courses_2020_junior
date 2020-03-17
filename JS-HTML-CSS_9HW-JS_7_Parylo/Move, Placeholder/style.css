@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: teal;
+}
+.place{
+    width: 470px;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 0 5px 5px black;
+}
+.tx{
+    position: absolute;
+    top: 110px;
+    left: 10px;
+}
+.control{
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 0 5px 5px black;
+}
+.text{
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 0 5px 5px black;
+}
+.movebutton{
+    font-weight: bolder;
+    width: 80px;
+    position: absolute;
+    top: 70px;
+    left: 204px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.movebutton:hover{
+    background-color: green;
+    box-shadow: 0 0 5px 5px turquoise;
+    transform: translateY(4px);
+    cursor: pointer;
+}
+.tt{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}

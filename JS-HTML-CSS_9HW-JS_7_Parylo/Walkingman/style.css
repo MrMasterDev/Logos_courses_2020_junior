@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+img {
+    width: 100px;
+    left: 750px;
+    top: 300px;
+}
+.buttons_move{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.left{
+    background-color: black;
+    color: white;
+    width: 60px;
+}
+.right{
+    background-color: black;
+    color: white;
+    width: 60px;
+}
+.up{
+    background-color: black;
+    color: white;
+    width: 60px;
+}
+.down{
+    background-color: black;
+    color: white;
+    width: 60px;
+}
+.left:hover{ 
+    box-shadow: 0 0 3px 3px turquoise;
+    transform: translateY(4px);
+    cursor: pointer;
+}
+.right:hover{ 
+    box-shadow: 0 0 3px 3px turquoise;
+    transform: translateY(4px);
+    cursor: pointer;
+}
+.up:hover{ 
+    box-shadow: 0 0 3px 3px turquoise;
+    transform: translateY(4px);
+    cursor: pointer;
+}
+.down:hover{ 
+    box-shadow: 0 0 3px 3px turquoise;
+    transform: translateY(4px);
+    cursor: pointer;
+}

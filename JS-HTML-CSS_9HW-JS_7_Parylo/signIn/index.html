@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+
+    <title>hw14_JS7 </title>
+</head>
+
+<body>
+    <div class="block">
+    <div class="container">
+        <form name="signIn" class="signIn">
+            <div class="head">
+                <p class="p">Sing in</p>
+            </div>
+            <div class="form-group">
+                <label class="lb" for="fname">First Name</label>
+                <input type="text" class="fname" id="fname" placeholder=" type here...">
+            </div>
+            <div class="form-group">
+                <label class="lbw" for="sname">Second Name</label>
+                <input type="text" class="sname" id="sname" placeholder=" type here...">
+            </div>
+            <div class="form-group">
+                <label class="email1" for="youremail">Email address</label>
+                <input type="email" name="mail" class="mymail" id="youremail"
+                    placeholder="email@gmail.com">
+            </div>
+            <div class="gender">
+                <input type="radio" id="genderm" name="gender" value="man" class="genderm">
+                <label class="labelm" for="genderm"></label>Man</label>
+                <input type="radio" id="genderw" name="gender" value="woman" class="genderw">
+                <label class="labelw" for="genderw"></label>Woman</label></div>
+
+            <div class="input-group">
+                <label class="pos1" for="select">Position</label>
+            </div>
+            <select name="select" class="custom-select" id="select">
+                <optgroup label="Сhoose option">
+                    <option value="QA">QA</option>
+                    <option value="Frontend">Frontend</option>
+
+
+            </select>
+
+            <div class="form-group">
+                <div class="form-check">
+                    <input type="checkbox" name="chec" class="form-check-input" id="form-check-input" required>
+                    <label class="form-check-label" for="form-check-input">
+                        I agree all statements in Terms of servise
+                    </label>
+                </div>
+            </div>
+            <button type="button" class="button-success" id="signIn">Sign in</button>
+        </form>
+    </div>
+    <div class="container1 signOut">
+        <div class="text-center">
+
+        </div>
+        <div class="text-c">
+            <p class="person"></p>
+            <p class="genders"></p>
+            <p class="mail"></p>
+            <p class="position"></p>
+            <button type="submit" id="signOut" class="large_button-success">Sign Out</button>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+
+</html>

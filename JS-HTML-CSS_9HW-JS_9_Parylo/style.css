@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+
+.ball{
+    width: 80px;
+    height: 80px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 50px;
+    position: absolute;
+    background-color: yellow;
+    top: 210px;
+    left: 320px;
+    
+}

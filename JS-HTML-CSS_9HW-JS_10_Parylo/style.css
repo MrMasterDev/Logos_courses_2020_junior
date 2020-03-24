@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    margin: 0px auto; 
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: monospace;
+    font-size: 32px;
+}
+#firstName{
+    margin-top: 15px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    padding-left: 12px;
+    font-family: monospace;
+}
+#lastName{
+    margin-top: 15px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    padding-left: 12px;
+    font-family: monospace;
+}
+#email{
+    margin-top: 15px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding-left: 12px;
+    font-family: monospace;
+}
+#phone_number{
+    margin-top: 15px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    padding-left: 12px;
+    font-family: monospace;
+}
+#password{
+    margin-top: 15px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    padding-left: 12px;
+    font-family: monospace;
+}
+.Sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.button{
+    width: 400px;
+    height: 40px;
+    background-color: rgb(0, 177, 15);
+    color: white;
+    border: transparent;
+    border-radius: 8px;
+    font-family: monospace;
+}
+.ok{
+    width: 20px;
+    height: 20px;
+    margin-left: -38px;
+    margin-top: 28px;
+    display: none;
+}
+.ok2{
+    width: 20px;
+    height: 20px;
+    margin-left: -38px;
+    margin-top: 28px;
+    display: none;
+}
+.ok3{
+    width: 20px;
+    height: 20px;
+    margin-left: -38px;
+    margin-top: 28px;
+    display: none;
+}
+.ok4{
+    width: 20px;
+    height: 20px;
+    margin-left: -38px;
+    margin-top: 28px;
+    display: none;
+}
+.ok5{
+    width: 20px;
+    height: 20px;
+    margin-left: -38px;
+    margin-top: 28px;
+    display: none;
+}
+.wrong{
+    width: 20px;
+    height: 20px;
+    margin-left: -38px;
+    margin-top: 36px;
+    display: none;
+}
+.wrong2{
+    width: 30px;
+    height: 20px;
+    margin-left: -38px;
+    margin-top: 36px;
+    display: none;
+}
+.wrong3{
+    width: 20px;
+    height: 20px;
+    margin-left: -38px;
+    margin-top: 36px;
+    display: none;
+}
+.wrong4{
+    width: 20px;
+    height: 20px;
+    margin-left: -38px;
+    margin-top: 36px;
+    display: none;
+}
+.wrong5{
+    width: 20px;
+    height: 20px;
+    margin-left: -38px;
+    margin-top: 36px;
+    display: none;
+}
+.fn{
+    display: flex;
+}
+.fn1{
+    display: flex;
+}
+.fn2{
+    display: flex;
+}
+.fn3{
+    display: flex;
+}
+.fn4{
+    display: flex;
+}
+.validmessage1{
+    background-color: red;
+    color: white;
+    width: 400px;
+    font-family: 'Oxanium', cursive;
+    font-size: 15px;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 1px;
+    display: none;
+}
+.validmessage2{
+    background-color: red;
+    color: white;
+    width: 400px;
+    font-family: 'Oxanium', cursive;
+    font-size: 15px;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 1px;
+    display: none;
+}
+.validmessage3{
+    background-color: red;
+    color: white;
+    width: 400px;
+    font-family: 'Oxanium', cursive;
+    font-size: 15px;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 1px;
+    display: none;
+}
+.validmessage4{
+    background-color: red;
+    color: white;
+    width: 400px;
+    font-family: 'Oxanium', cursive;
+    font-size: 15px;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 1px;
+    display: none;
+}
+.validmessage5{
+    background-color: red;
+    color: white;
+    width: 400px;
+    font-family: 'Oxanium', cursive;
+    font-size: 15px;
+    height: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 1px;
+    display: none;
+}
+.success{
+    display: none;
+    font-family: 'Oxanium', cursive;
+    margin: 150px auto;
+    width: 660px;
+    height: 200px;
+}
+.message1{
+    font-size: 100px;
+    padding-left: 100px;
+}
+.message2{
+    font-size: 26px;
+    padding-left: 100px;
+}
